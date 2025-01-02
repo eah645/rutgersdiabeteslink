@@ -1,0 +1,737 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: auto;
+  color: white;
+}
+
+body {
+  background-color: #24125F;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*Only reason background color is commented is that background image actually doesn't look half bad like this*/
+.container {
+  position: relative;
+  /* background-color: #fff; */
+}
+
+/*Yeah ok gonna need to change this so it's not stretched out*/
+.header-icon {
+  background-image: url(images/breakthroughT1D_walk.png.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 80%;
+}
+
+/*Wait ok that actually looks really cool-*/
+
+#top {
+  height: 100vh;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #24125F;
+  border-bottom-right-radius: 35%;
+}
+
+/*Should def size these up / bold to make more visible*/
+.header1 {
+  position: absolute;
+  bottom: 3.2vw;
+  font-size: 3vw;
+  color: #FFCD00;
+  background-color: #24125F;
+  padding: 10px;
+  padding-right: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.header2 {
+  position: absolute;
+  bottom: 1vw;
+  font-size: 1.8vw;
+  color: #24125F;
+  background-color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  /*Redo with transparent logo*/
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfpbh2rnv0NEKlAFuCE3XxZNJk1Xi7bfK1mA&s");
+  background-position: center;
+  background-size: cover;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+}
+
+
+/*Code from professor*/
+/* set header bar */
+.header {
+  width: 100vw;
+  height: 7.8vh;
+  background-color: steelblue; /*I wonder if I should use an off shade of blue... actally looks really nice*/
+  position: relative;
+  margin-top: 0;
+}
+
+/* set label background as menu icon */
+.header > label {
+  /* set as inline-block to control its size */
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  
+  /* background menu icon */
+  background-image: url("https://cdn4.iconfinder.com/data/icons/flat-black/128/menu.png");
+  background-size: contain;
+}
+
+/* hide checkbox, label is used to open or close menu */
+.header > input { display: none; }
+
+/* hide menu icon by default */
+.header > label { display: none; }
+
+/* set nav links */
+.header > .nav > li {
+  display: inline-block;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  padding-top: 2vh;
+}
+.header > .nav > li > a { 
+  color: #fff;
+  text-decoration: none; 
+  font-size: 3vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+
+#active {
+  color: #24125F;
+}
+
+.nav > li:not(:last-child) {
+  border-right: 2px solid #fff;
+}
+
+/* when screen is less than 720px do the following */
+@media all and (max-width:720px) {
+  
+}
+
+/*Footer (base: Responsive Footer ()*/
+.footer {
+  /* TODO take whole row and 32px/16px padding */
+  display: block;
+  width: 100%;
+  padding: 32px 16px;
+  /* TODO white text on rbg 72/91/109 background */
+  color: white;
+  background-color: steelblue;
+  /* TODO sans-serif font */
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.footer > .contact,
+.footer > .links
+{
+  /* TODO share row with 45% width and -4px rigth margin */
+  display: inline-block;
+  width: 45%;
+  margin-right: -4px;
+  /* TODO vertical align top */
+  vertical-align: top;
+}
+
+.footer > .contact {
+  /* TODO margin bottom 24px  */
+  margin-bottom: 24px;
+  /* TODO text align left */
+  text-align: left;
+  padding-left: 2vw;
+}
+
+.footer > .contact > h2 {
+  font-size: 2.7vw;
+  color: #24125F;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#diabetes_link {
+  color: #24125F;
+  transition: 0.5s;
+}
+
+#diabetes_link:hover {
+  color: #FFCD00;
+  transition: 0.5s;
+}
+
+.footer > .contact > span {
+  /* TODO NOT share row */
+  display: block;
+  font-family: serif;
+  letter-spacing: 1.5px;
+  font-size: 1.5vw; /*This may be the smallest it can get- be careful here*/
+}
+
+.footer > .contact > span > a {
+  /* TODO white color and removew underline */
+  color: #FFCD00;
+}
+
+.footer > .links {
+/* TODO share row with 50% width and -4px rigth margin */
+display: inline-block;
+width: 50%;
+margin-right: -4px;
+/* TODO text align left and vertical algin top*/
+text-align: center;
+vertical-align: top;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 1.5px;
+font-size: 1.5vw;
+}
+
+.footer > .links > div {
+  /* TODO NOT share row with 24px bottom margin */
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 24px;
+}
+
+.footer > .links > div > p {
+  color: #24125F;
+}
+
+.footer > .links > div > a > img {
+  max-height: 80px;
+  padding-top: 1vh;
+}
+
+.attribution {
+  padding-top: 25px;
+}
+
+.attribution > a {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/*Ok setting up the about us stuff*/
+.about-us {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-us-header {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  max-width: 60%;
+}
+
+.about-us-header > h2 {
+  color: #FFCD00;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+
+.about-us-text {
+  font-size: 1.5vw;
+  line-height: 4vh;
+  font-family: serif;
+}
+
+.about-us-img {
+  margin: 15px;
+  border: 1.5px solid #fff;
+  width: 30%;
+  display: inline-block;
+}
+
+ul > li {
+  line-height: 3vh;
+}
+
+
+
+/*Upcoming events*/
+.upcoming-events-header {
+  text-align: center;
+  color: #FFCD00;
+  font-size: 6vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+
+.upcoming-events > hr {
+  width: 50%;
+  height: 10px;
+  background-color: white;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+.event-row {
+  text-align: center;
+}
+
+.event-row > div {
+  width: 30%;
+  display: inline-block;
+  padding: 1%;
+  vertical-align: top;
+}
+
+.event-row-med {
+  display: none;
+}
+
+.event-row-small {
+  display: none;
+}
+
+
+/*Events.html*/
+
+.event-active {
+  padding: 2%;
+  display: inline-block;
+  width: 40%;
+}
+
+.event-active > img {
+  width: 100%;
+}
+
+.descText {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 2%;
+  overflow-x: hidden;
+  width: 50%;
+}
+
+.descText > h2 {
+  font-size: 4vw;
+}
+
+.descText > p {
+  font-size: 2vw;
+  width: 100%;
+}
+
+.recap_row {
+  display: block;
+  width: 100%;
+}
+
+.recap_row_med {
+  display: none;
+}
+
+.recap_row_sm {
+  display: none;
+}
+
+.recap {
+  display: inline-block;
+  width: 29%;
+  margin: 2vw;
+  text-align: center;
+}
+
+.recap > img {
+  height: 45vh;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.recap > h3 > a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  text-decoration: underline;
+  color: #FFCD00;
+  text-align: center;
+  font-size: 2vw;
+}
+
+
+/*Contact us*/
+.text {
+  color: black;
+}
+
+.contact-title {
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  display: inline-block;
+}
+
+.contact-title > h1 {
+  font-size: 5vw;
+  color: #FFCD00;
+  margin: 20px;
+}
+
+.contact-title > p {
+  font-size: 2vw;
+  margin: 20px;
+}
+
+.contacts {
+  display: block;
+  width: 100%;
+}
+
+.contact-form {
+  width: 49%;
+  border-right: 1px solid #fff;
+  display: inline-block;
+}
+
+.h2_title {
+  color: #FFCD00;
+  margin: 10px;
+  font-size: 3vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.contact-form > hr {
+  width: 70%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+}
+
+.contact-form > .name {
+  display: block;
+  width: 60%;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.name > p {
+  display: inline-block;
+  margin: 10px;
+}
+
+.name > input {
+  display: inline-block;
+  font-size: 1vw;
+  width: 70%;
+}
+
+.message {
+  max-width: 80%;
+  margin: 0;
+  color: black;
+  padding: 3px;
+  font-size: 1vw;
+}
+
+.msg {
+  margin-top: 10px;
+}
+
+.message-title {
+  font-size: 1.5vw;
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+#contact-btn {
+  color: black;
+  margin: 10px;
+  /* height: 3vw; */
+  width: auto;
+  font-size: 3vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #24125F;
+  color: #FFCD00;
+  border: 2px solid #fff;
+  filter: none;
+  transition: 1s;
+  padding: 0px 5px;
+}
+
+/*This is good for now. Might experiment later with drop shadow*/
+#contact-btn:hover {
+  background-color: steelblue;
+  transition: 1s;
+}
+
+.socials {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.socials > ul > li {
+  list-style: none;
+  margin: 20px;
+  font-size: 2vw;
+}
+
+.socials > ul > li > a {
+  color: #FFCD00;
+}
+
+
+
+/*Medium / small screens*/
+
+/*Medium-sized screen, specifically for events page*/
+@media all and (max-width: 1348px) {
+  .recap_row_large {
+    display: none;
+  }
+
+  .recap_row_med {
+    display: block;
+  }
+
+  .recap {
+    width: 45%;
+  }
+}
+
+/*Medium-sized screen layout*/
+@media all and (max-width:1076px) {
+  /*Homepage*/
+
+  .about-us-header {
+    max-width: 100%;
+  }
+
+  .about-us-text {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .about-us-img {
+    display: none;
+  }
+
+  .event-row {
+    display: none;
+  }
+
+  .event-row-med {
+    text-align: center;
+    display: block;
+  }
+  
+  .event-row-med > div {
+    width: 45%;
+    display: inline-block;
+    padding: 1%;
+    vertical-align: top;
+  }
+
+  /*Contact*/
+  .contact-title > h1 {
+    font-size: 55px;
+  }
+
+  .contact-title > p {
+    font-size: 22px;
+  }
+
+  .contact-form > .name {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .name > p {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .name > input {
+    display: inline-block;
+    font-size: 15px;
+    width: 70%;
+  }
+  
+  .message {
+    max-width: 70%;
+    width: 70%;
+    margin: 0;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .message-title {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  #contact-btn {
+    font-size: 30px;
+    width: auto;
+    padding: 0px 5px;
+  }
+}
+
+/*Small for events*/
+@media all and (max-width: 968px) {
+  /*Events.html*/
+  .recap_row_med {
+    display: none;
+  }
+
+  .recap_row_sm {
+    display: block;
+  }
+
+  .recap {
+    width: 90%;
+  }
+
+  .recap > img {
+    height: 50vh;
+  }
+
+  .recap > h3 > a {
+    font-size: 30px;
+  }
+
+  .descText > h2 {
+    font-size: 30px;
+  }
+
+  .descText > p {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width:720px) {
+  /*Nav*/
+  /* show hamburger menu icon */  
+  .header > label { display: inline-block; }
+  
+  /* hide nav bar links */
+  .header > .nav { display: none; }
+  /* only show nav bar when icon clicked */
+  .header > input:checked + .nav { 
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 3em;
+    z-index: 100;
+    background-color: steelblue; 
+  }
+  /* show menu item as dropdown menu */
+  .header > input:checked + .nav > li { 
+    display: block;
+    border-right: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  /*Homepage*/
+  .header1 {
+    font-size: 23px;
+    width: 50%;
+    bottom: 28px;
+  }
+  .header2 {
+    font-size: 18px;
+    bottom: 0.2;
+    width: 45%;
+  }
+
+  .event-row-med {
+    display: none;
+  }
+
+  .event-row-small {
+    display: block;
+    text-align: center;
+  }
+  .event-row-small > div {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /*Contact*/
+  .contact-form {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  .contact-form > hr {
+    width: 100%;
+    margin: 0;
+  }
+
+  .socials {
+    display: block;
+    width: 100%;
+  }
+
+  .socials > ul > li {
+    font-size: 20px;
+  }
+
+  .h2_title {
+    font-size: 25px;
+  }
+
+  /*Footer*/
+  .footer > .contact,
+  .footer > .links,
+  .footer > .social {
+    /* TODO 100% width and 32px bottom margin */
+    width: 100%;
+    margin-bottom: 30px;
+    /* TODO text align center */
+    text-align: center;
+  }
+  
+  .footer > .links > div {
+    /* TODO text align center */
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .footer > .contact > h2 {
+    font-size: 30px;
+  }
+
+  .footer > .contact > span {
+    font-size: 20px;
+  }
+
+}

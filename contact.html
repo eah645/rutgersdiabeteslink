@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Diabetes_Link_Transparent.png.jpeg">
+    <title>Contact Us - The Rutgers Diabetes Link</title>
+</head>
+<body>
+    <!--Nav-->
+    <!--Base: Responsive header-->
+    <!-- add checkbox and label to hide/show navbar -->
+    <div class="header">
+        <!-- label is linked to checkbox for better rendering -->  
+        <label for="menu"></label>
+        <input type="checkbox" id="menu" />
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html" id="active">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--Connect With Us title-->
+    <div class="contact-title">
+        <h1>Connect With Us!</h1>
+        <p>We're so glad you found our on campus chapter! If you're looking for support and community at college,
+             join our group of students who 'get it' and become a member of The Diabetes Link national network.</p>
+    </div>
+
+    <!--Skipping header stuff, starting with the two divs-->
+    <div class="contacts">
+
+    <!--Left side div (like a regular email form)-->
+        <div class="contact-form">
+            <h2 class="h2_title">Email Us:</h2>
+            <hr>
+            <div class="name">
+                <p>Name: </p>
+                <input type="text" class="text" placeholder="Enter your name here" name="name">
+            </div>
+            <div class="name">
+                <p>Email: </p>
+                <input type="text" class="text" placeholder="Enter your email here" name="email">
+            </div>
+            <div class="msg">
+                <div class="message-title">
+                    <p>Message: </p>
+                </div>
+                <textarea type="text" class="message" placeholder="Enter your message here" autocomplete="off" name="message"></textarea>
+            </div>
+            <!--Button to send (not currently functional)-->
+            <br>
+            <button id="contact-btn">Send!</button>
+        </div>
+        <div class="socials">
+            <h2 class="h2_title">Reach Out On Social Media:</h2>
+            <hr>
+            <ul>
+                <li>Follow us on <a href="https://www.instagram.com/rutgersdiabeteslink/">Instagram!</a></li>
+                <li>Join our <a href="https://groupme.com/join_group/97536046/GUfGcPfO">GroupMe!</a></li>
+                <li>Find us on <a href="https://rutgers.campuslabs.com/engage/organization/rutgersdiabeteslink">GetInvolved!</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!--Footer-->
+    <!--Base: Responsive Footer-->
+    <div class="footer">
+        <div class="contact">
+          <h2>We are a chapter of <br><a href="https://thediabeteslink.org/" id="diabetes_link">The Diabetes Link</a></h2>
+          <br>
+          <span>613 George Street</span>
+          <span>New Brunswick, NJ 08901</span>
+          <span><a href="tel:908.906.9859">908-906-9859</a></span>
+          <span><a href="mailto:rutgers@thediabeteslink.org">rutgers@thediabeteslink.org</a></span>
+        </div>
+        <div class="links">
+          <!--This'll be a sec to readjust-->
+          <div>
+            <p>Follow us on Instagram!</p>
+            <a href="https://www.instagram.com/rutgersdiabeteslink/"><img src="images/instagram.png" alt="Instagram icon by Freepik - Flaticon"></a>
+          </div>
+          <div>
+            <p>Join our GroupMe!</p>
+            <a href="https://groupme.com/join_group/97536046/GUfGcPfO"><img src="images/groupme.png" alt="GroupMe icon by Freepik - Flaticon"></a>
+          </div>
+          <div class="attribution">
+            <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Freepik - Flaticon</a><br>
+            <a href="https://www.flaticon.com/free-icons/groupme" title="groupme icons">Groupme icons created by Freepik - Flaticon</a>
+          </div>
+        </div>
+      </div>
+
+</body>
