@@ -554,6 +554,11 @@ hr {
 
 
 /*Medium / small screens*/
+@media all and (max-width: 1348px) {
+  .recap {
+    width: 45%;
+  }
+}
 
 /*Medium-sized screen layout*/
 @media all and (max-width:1076px) {
@@ -652,6 +657,17 @@ hr {
   }
 
   /*Events.html*/
+  .recap {
+    width: 100%;
+  }
+
+  .recap > img {
+    height: auto;
+  }
+
+  .recap > h3 > a {
+    font-size: 30px;
+  }
 
   .descText {
     line-height: 150%;
