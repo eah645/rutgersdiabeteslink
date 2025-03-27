@@ -1,5 +1,23 @@
 [
     {
+        "EventTitle": "RUDL Trivia Night",
+        "EventLink": "https://www.instagram.com/p/DHt7fogSn8-/?img_index=1",
+        "image": "images/Trivia_Night.png",
+        "imageAlt": ""
+    },
+    {
+        "EventTitle": "Pediatric to Adult Transition - RUDL X Path",
+        "EventLink": "https://www.instagram.com/p/DFn7JgoyUvP/",
+        "image": "images/RUDL_PATH_Pediatric_to_Adult.png",
+        "imageAlt": ""
+    },
+    {
+        "EventTitle": "Holiday Party",
+        "EventLink": "https://www.instagram.com/p/DFLcODcyb50/",
+        "image": "images/holiday_party_invite.png",
+        "imageAlt": ""
+    },
+    {
         "EventTitle": "World Diabetes Day 2024",
         "EventLink": "https://www.instagram.com/p/DCknyBOSlMX/?igsh=cWlnY2RtZnBnOW12&img_index=1",
         "image": "images/world_diabetes_day_2024.png.jpeg",
