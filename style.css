@@ -401,6 +401,12 @@ hr {
 
 .event-active > img {
   width: 100%;
+
+  /*Change for later:
+    width: auto;
+    max-height: 550px;
+    Add text-align: center to event-active
+  */
 }
 
 .descText {
