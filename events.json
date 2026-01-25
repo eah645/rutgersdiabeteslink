@@ -3,84 +3,90 @@
         "EventTitle": "RUDL Game Night",
         "EventLink": "#",
         "image": "images/Game_Night_F25.png",
-        "imageAlt": ""
+        "imageAlt": "Poster for the RUDL Game Night on October 23, 2025, featuring game illustrations"
     },
     {
         "EventTitle": "General Interest Meeting: Fall 2025",
         "EventLink": "#",
         "image": "images/RUDL_GM_F25.png",
-        "imageAlt": ""
+        "imageAlt": "Flyer for RUDL's General Interst meeting with event details and a glucometer illustration"
     },
     {
         "EventTitle": "End-of-Semester Get-Together",
         "EventLink": "https://www.instagram.com/p/DJKyoq_SAbV/?img_index=1",
         "image": "images/Volleyball_Spikeball_Recap.png",
-        "imageAlt": ""
+        "imageAlt": "Six people standing on grass, five of which having navy blue 'The Diabetes Link' t-shirts"
     },
     {
         "EventTitle": "Breakthrough T1D Summit",
         "EventLink": "https://www.instagram.com/p/DIAnFEvM_fX/",
         "image": "images/breakthroughT1D_Summit_S25.png",
-        "imageAlt": ""
+        "imageAlt": "A group of five people standing behind a table with a banner stating 'The Diabetes Link'"
     },
     {
         "EventTitle": "RUDL Trivia Night",
         "EventLink": "https://www.instagram.com/p/DHt7fogSn8-/?img_index=1",
         "image": "images/RUDL_Trivia_Recap.png",
-        "imageAlt": ""
+        "imageAlt": "A group of eight people smiling and standing in front of a beige wall"
     },
     {
         "EventTitle": "Pediatric to Adult Transition - RUDL X Path",
         "EventLink": "https://www.instagram.com/p/DFn7JgoyUvP/",
         "image": "images/RUDL_PATH_Pediatric_to_Adult.png",
-        "imageAlt": ""
+        "imageAlt": "Poster for a diabetes management information session with graphics of healthcare professionals and event details"
     },
     {
         "EventTitle": "Holiday Party",
         "EventLink": "https://www.instagram.com/p/DFLcODcyb50/",
         "image": "images/holiday_party_invite.png",
-        "imageAlt": ""
+        "imageAlt": "Holiday invitation featuring a Christmas tree, gifts, and a movie-themed design"
     },
     {
         "EventTitle": "World Diabetes Day 2024",
         "EventLink": "https://www.instagram.com/p/DCknyBOSlMX/?igsh=cWlnY2RtZnBnOW12&img_index=1",
         "image": "images/world_diabetes_day_2024.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "A group of thirteen people standing in a room with wood-paneled walls and a flat-screen TV, posing around a table"
     },
     {
         "EventTitle": "Breakthrough T1D Walk",
         "EventLink": "https://www.instagram.com/p/DBwRSRfyT0Q/?igsh=eGNhbDN2dG96NDc2&img_index=1",
         "image": "images/breakthroughT1D_walk.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "Group of people with mascots posing in front of a banner with 'Breakthrough T1D' written on a sunny fall day"
     },
     {
         "EventTitle": "Boba Social: Fall 2024",
         "EventLink": "https://www.instagram.com/p/DBhG-sUye2j/?igsh=ajlubXNueHV1MThx&img_index=1",
         "image": "images/boba_social_2.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "A group of eight people standing on a grass lawn at night, with an illuminated building and digital billboard in the background"
+    },
+    {
+        "EventTitle": "General Interest Meeting: Fall 2024",
+        "EventLink": "https://www.instagram.com/p/DARfR1Lyz88/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "images/RUDL_GM_F24.png",
+        "imageAlt": "Three people in a classroom with two large display screens and a podium"
     },
     {
         "EventTitle": "Involvement Fair: Fall 2024",
         "EventLink": "https://www.instagram.com/p/C_gRpiLOlnQ/?igsh=MTN6bnlpa3EyZjJtdg%3D%3D&img_index=1",
         "image": "images/involvement_fair_2024.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "Three young adults stand in front of a diabetes informational booth outdoors, with a tree and sun overhead"
     },
     {
         "EventTitle": "RWJBH Health Fair",
         "EventLink": "https://www.instagram.com/p/C7m3I0huKNz/?igsh=Z2draTAxMTMyd24%3D&img_index=1",
         "image": "images/health_fair.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "A group of seven people at a conference, standing behind a table with informational materials"
     },
     {
         "EventTitle": "Boba Social: Spring 2024",
         "EventLink": "https://www.instagram.com/p/C6PYPMZu7xf/?igsh=MWlzejVuZjVoZXF3MQ%3D%3D&img_index=1",
         "image": "images/boba_social_1.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "Four women sitting in a boba shop holding boba tea drinks and smiling"
     },
     {
         "EventTitle": "JDRF Summit",
         "EventLink": "https://www.instagram.com/p/C43kFizu_LS/?igsh=MTZvNm01NXdxZTNpbQ%3D%3D&img_index=1",
         "image": "images/diabetes_conference.png.jpeg",
-        "imageAlt": ""
+        "imageAlt": "Three people behind a table with 'The Diabetes Link' materials and a blue tablecloth in an indoor venue"
     }
 ]
